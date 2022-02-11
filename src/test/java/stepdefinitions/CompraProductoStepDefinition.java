@@ -6,11 +6,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import questions.ValidarTexto;
 import tasks.RealizarCompra;
 import tasks.SeleccionarProducto;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.*;
+import static org.hamcrest.Matchers.equalTo;
+import static userinterface.CheckoutPage.TITULO;
 
 
 public class CompraProductoStepDefinition {
@@ -26,9 +29,6 @@ public class CompraProductoStepDefinition {
         @Given("that {string} wants visit the falabella page")
         public void thatWantsVisitTheFalabellaPage(String actorName, String url) {
         theActorCalled(actorName).attemptsTo(Open.url(url));
-
-
-
         }
         @When("he search the article {string} on falabella page")
         public void heSearchTheArticleOnFalabellaPage(String producto) {
@@ -41,7 +41,7 @@ public class CompraProductoStepDefinition {
         }
         @Then("he find the tittle called {string}")
         public void heFindTheTittleCalled(String texto) {
-             theActorInTheSpotlight().should(seeThat(ValidarTexto.con(texto,TITULO),equalTO(texto)));
+             theActorInTheSpotlight().should(seeThat(ValidarTexto.con(texto,TITULO),equalTo(texto)));
 
         }
 }

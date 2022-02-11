@@ -14,4 +14,8 @@ public class CheckoutPage extends PageObject {
             .locatedBy("//select[@id ='comuna']//name[@class='fbra_select fbra_formItem__comuna' and contains(text(),'{0}')]");
 
 
+    public static final Target TITULO = Target.the("texto para validar")
+            .locatedBy("//select[@id ='comuna']//name[@class='fbra_select fbra_formItem__comuna' and contains(text(),'{0}')]");
+
+
 }

@@ -4,8 +4,9 @@ import io.cucumber.datatable.DataTable;
 import model.Despacho;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
+import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
-import userinterface.CheckoutPage;
+
 
 import java.util.Map;
 
@@ -19,7 +20,7 @@ public class RealizarCompra implements Task {
 
     public RealizarCompra(DataTable data) {
         this.data = data;
-        info = this.data.asMap(String.class);
+        info = this.data.asMap(String.class, String.class);
         despacho = new Despacho(info.get("departamento"),info.get("ciudad"),info.get("barrio"),info.get("direccion"),info.get("detalle"));
 
     }
@@ -36,7 +37,7 @@ public class RealizarCompra implements Task {
         );
     }
     public static RealizarCompra conInfo(DataTable data){
-        return Task.instrumented(RealizarCompra.class, data);
+        return Tasks.instrumented(RealizarCompra.class, data);
 
     }
 }

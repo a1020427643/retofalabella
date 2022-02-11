@@ -41,7 +41,7 @@ public class CompraProductoStepDefinition {
         }
         @Then("he find the tittle called {string}")
         public void heFindTheTittleCalled(String texto) {
-             theActorInTheSpotlight().should(seeThat(ValidarTexto.con(texto, TITULO),equalTO(texto)));
+             theActorInTheSpotlight().should(seeThat(ValidarTexto.con(texto,TITULO),equalTO(texto)));
 
         }
 }

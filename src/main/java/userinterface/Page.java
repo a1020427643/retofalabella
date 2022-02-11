@@ -16,7 +16,8 @@ public class Page extends PageObject {
             .locatedBy("//button[@class= 'SearchBar-module_searchBtnIcon__6KVum']");
 
     public static final Target AGREGAR_A_LA_BOLSA = Target.the("boton para agregar a la bolsa")
-            .locatedBy("//button[@class= 'jsx-2166277967 button button-primary button-primary-medium-large']");
+            .locatedBy("//button[@class= 'jsx-2166277967 button button-primary button-primary-xtra-large']");
+
 
     public static final Target VER_BOLSA_DE_COMPRAS = Target.the("boton para ver bolsa")
             .located(By.id("linkButton"));

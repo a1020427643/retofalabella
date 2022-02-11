@@ -26,9 +26,9 @@ public class CompraProductoStepDefinition {
 
 
         }
-        @Given("that {string} wants visit the falabella page")
-        public void thatWantsVisitTheFalabellaPage(String actorName, String url) {
-        theActorCalled(actorName).attemptsTo(Open.url(url));
+    @Given("that {string} wants visit the falabella page {string}")
+    public void thatWantsVisitTheFalabellaPage(String string, String string2) {
+        theActorCalled(string).attemptsTo(Open.url(string2));
         }
         @When("he search the article {string} on falabella page")
         public void heSearchTheArticleOnFalabellaPage(String producto) {

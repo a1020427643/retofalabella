@@ -13,9 +13,7 @@ public class CheckoutPage extends PageObject {
     public static final Target INPUT_DIRECCION = Target.the("campo para llenar la direccion")
             .locatedBy("//select[@id ='comuna']//name[@class='fbra_select fbra_formItem__comuna' and contains(text(),'{0}')]");
 
-
     public static final Target TITULO = Target.the("texto para validar")
             .locatedBy("//select[@id ='comuna']//name[@class='fbra_select fbra_formItem__comuna' and contains(text(),'{0}')]");
-
 
 }

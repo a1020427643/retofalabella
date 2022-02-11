@@ -20,6 +20,7 @@ public class ValidarTexto implements Question<String> {
     public String answeredBy(Actor actor) {
         return Text.of(target.of(text)).viewedBy(actor).asString();
 
+
     }
 
     public static ValidarTexto con(String text, Target target){

@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f10ab7b-b3b9-435b-aa8a-f773f6aab471" name="Default Changelist" comment="avance hasta comenzar a llenar datos de envio">
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/1123c4074242a621bf54a9da8636de3ad8722b45b62fdcec921871eb2d1db96c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/1836b3f432e2ec52b3df074f2d4d9abad7946dc1edc3e9d7ab512f22fb339dc0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/2aad14c332c0dd7938220c3d05bfab129da76c8385598370e0d17272ee6ed5df.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/54bef5b5d737ec3a0ea6618389b3e8ae1d4e2826f12a4924115669ab183295c2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/bc072639aaf0835d6ba4014f122e01f0364da6924a5f8c2c1eea9f8672257cf0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource7381438680908309240.html.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7f10ab7b-b3b9-435b-aa8a-f773f6aab471" name="Default Changelist" comment="Se agrega carpera target al .gitignore">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/questions/ValidarTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/ValidarTexto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterface/CheckoutPage.java" afterDir="false" />
@@ -267,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644598855416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Se agrega carpera target al .gitignore">
+      <created>1644607229395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644607229395</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +288,8 @@
     <MESSAGE value="cambios en stepdefinition" />
     <MESSAGE value="correccion de Xpath" />
     <MESSAGE value="avance hasta comenzar a llenar datos de envio" />
-    <option name="LAST_COMMIT_MESSAGE" value="avance hasta comenzar a llenar datos de envio" />
+    <MESSAGE value="Se agrega carpera target al .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega carpera target al .gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$RunnerTagsCompraProducto.ic" NAME="RunnerTagsCompraProducto Coverage Results" MODIFIED="1644508984011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

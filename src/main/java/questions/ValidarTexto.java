@@ -18,7 +18,7 @@ public class ValidarTexto implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        return Text.of(target.of(text)).viewedBy(actor.asString());
+        return Text.of(target.of(text)).viewedBy(actor).asString();
     }
 
     public static ValidarTexto con(String text, Target target){

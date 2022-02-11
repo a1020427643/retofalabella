@@ -3,7 +3,8 @@
 
   @stories
   Feature: falabella
-    As a user, I want to buy a article on falabella page for a gift
+    As a user,
+    I want to buy a article on falabella page for a gift
 
   @scenario
   Scenario: Buy article

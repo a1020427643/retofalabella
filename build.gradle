@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '2.4.34'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.4.34'
+    implementation group: 'net.serenity-bdd.maven.plugins', name: 'serenity-maven-plugin', version: '2.4.34'
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber6', version: '2.4.34'
+    implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.4.34'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.4.34'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.141.59'
+    implementation group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.47.1'
+}
+
+test {
+    useJUnitPlatform()
+}
